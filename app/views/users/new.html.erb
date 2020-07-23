@@ -30,7 +30,7 @@
 
 <%= form_for @user do |f| %>
   Username: <%= f.text_field :username, placeholder: "Your username here" %> <br><br>
-  Email: <%= f.text_field :email, placeholder: "example@example.com" %> <br><br>
+  Email: <%= f.email_field :email, placeholder: "example@example.com" %> <br><br>
   Password: <%= f.password_field :password %> <br><br>
 
   <%= f.submit "Create" %>
